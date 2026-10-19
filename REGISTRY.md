@@ -26,6 +26,6 @@ Agents I have built or run that still need an entry:
 | Schedule | When it runs, with time zone. On-demand agents say so. |
 | Autonomy | Whether its actions wait for human approval or run on their own. |
 | Human oversight point | The exact place where a human reviews, approves or can stop the output. |
-| Open findings | Number of known gaps between how the agent runs and the principles in the README. Details on the agent card. |
+| Open findings | Number of known gaps between how the agent runs and the principles in the README, including partially mitigated ones. Details and status on the agent card. |
 
 Each agent card adds: owner, model, tools and connectors, data it can read, actions it can take, risks, controls, findings and a change log.

@@ -33,13 +33,14 @@ The agent changes the cockpit only from my answers in the same session. It may n
 
 ## Open findings
 
-| ID | Finding | Why it matters | Proposed fix |
-| --- | --- | --- | --- |
-| F-001 | Mail, calendar, Drive, task-database and video-analytics connectors are attached by default, though the agent needs only the document connector | Least privilege: unused access is risk without benefit | Detach every connector except the document connector |
-| F-002 | Runs without approval prompts while it can edit the cockpit | An unattended run could change the document if instructions were misread | Acceptable for now, since edits depend on my answers in the session; revisit after four runs |
+| ID | Finding | Why it matters | Fix | Status |
+| --- | --- | --- | --- | --- |
+| F-001 | Mail, calendar, Drive, task-database and video-analytics connectors are attached by default, though the agent needs only the document connector | Least privilege: unused access is risk without benefit | Instruction-level ban on everything except the document tools (2026-10-19). Detaching the connectors still to do | Partially mitigated |
+| F-002 | Runs without approval prompts while it can edit the cockpit | An unattended run could change the document if instructions were misread | Accepted risk: edits depend on my answers in the session. Revisit after four runs (2026-11-13) | Accepted |
 
 ## Change log
 
 | Date | Change |
 | --- | --- |
 | 2026-10-19 | Created |
+| 2026-10-19 | Security guardrail: document tools only, document content treated as data |
