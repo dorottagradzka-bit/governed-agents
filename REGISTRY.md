@@ -7,6 +7,7 @@ Last review: 2026-10-19
 | [AG-001](agents/AG-001-weekly-content-pipeline/README.md) | Weekly content pipeline | Turns a week of newsletters, own notes and web news into 4 LinkedIn post briefs and 1 article brief | Active | Mondays 07:52 Europe/Warsaw | Default mode: approval gate on | Briefs only; I edit and publish every piece myself | 4 |
 | [AG-002](agents/AG-002-friday-review/README.md) | Friday review | Prepares my weekly review of priorities and updates the cockpit document from my answers | Active | Fridays 12:58 Europe/Warsaw | Automatic mode: no approval gate | Edits the cockpit only from my answers in the session | 3 |
 | [AG-003](agents/AG-003-career-trends/README.md) | Career trends (#kArIera) | Analyses popular AI videos for career-planning signals and drafts a LinkedIn post | Paused 2026-10-19 | Sundays 07:48 Europe/Warsaw (disabled) | Default mode: approval gate on | Draft only, delivered for review | 1 |
+| [AG-004](agents/AG-004-research-pipeline/README.md) | Research-to-publication pipeline | Turns high-quality scientific publications into verified insights and, after my approval, publications | Design 2026-10-20 | Not running | To be decided | Four human gates: select, accept analysis, approve draft, publish | 5 design items |
 
 **Layer 0 summary (2026-10-19):** none of the three agents has a per-tool allowlist on its MCP servers, and all carry servers they do not need. Every safety rule added so far lives in Layer 1 instructions. The current configuration is accepted as is until 2026-11-13: see [RA-2026-001](RISK-ACCEPTANCE.md).
 
@@ -14,9 +15,12 @@ Last review: 2026-10-19
 
 Agents I have built or run that still need an entry:
 
-- EU AI Act Article 4 readiness assessment agent (Microsoft Copilot Studio)
 - AI Requirements & Compliance Validator (audits Jira requirements)
 - Seven-step content pipeline (Python)
+
+## Not registrable
+
+- EU AI Act Article 4 readiness assessment agent (Microsoft Copilot Studio): access to the environment was lost before registration, so the agent cannot be documented from its configuration. Recorded here so the gap stays visible.
 
 ## Field definitions
 
