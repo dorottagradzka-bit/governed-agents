@@ -9,7 +9,7 @@ I am a Business Analyst specialising in AI Governance, AI change and AIfullness:
 ## Principles
 
 1. **Registered before running.** Every agent has an entry in the [agent registry](REGISTRY.md) before it is trusted with real work.
-2. **Least privilege.** An agent gets only the tools and data it needs for its purpose. Anything broader is recorded as an open finding.
+2. **Least privilege, enforced in Layer 0.** An agent gets only the MCP servers and tools it needs for its purpose, limited by configuration rather than by instructions. Instructions (Layer 1) are a second line of defence, never the only one. Anything broader is recorded as an open finding.
 3. **A named human oversight point.** Each agent states where a human reviews, approves or can stop its output.
 4. **Nothing published automatically.** Agents prepare; a human decides.
 5. **Instructions under version control.** Changes to prompts and instructions go through commits, so they are traceable.

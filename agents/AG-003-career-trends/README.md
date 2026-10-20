@@ -7,7 +7,16 @@
 | Status | Paused 2026-10-19 (focus decision: its audience is individuals planning careers, not the organisations my brand addresses) |
 | Schedule | Sundays 07:48 Europe/Warsaw, disabled |
 | Model | Claude Sonnet 5 |
-| Autonomy | Runs without approval prompts |
+| Autonomy | Default permission mode: an action that needs approval pauses the run (corrected 2026-10-19) |
+
+## Layer 0 and MCP in brief
+
+| Item | State |
+| --- | --- |
+| Disabled | Yes: the strongest deterministic constraint, the agent cannot run |
+| Servers attached | Video analytics (needed for read tools), scheduled-task management (not needed) |
+| Per-tool allowlist | None: the video-analytics write tools (upload, publish Instagram reel) are available |
+| Before any restart | Detach scheduled-task management; restrict video analytics to read tools if the platform allows |
 
 ## What it can read
 
