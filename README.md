@@ -19,6 +19,7 @@ I am a Business Analyst specialising in AI Governance, AI change and AIfullness:
 
 ```
 REGISTRY.md                  Agent registry: one row per agent, plus field definitions
+RISK-ACCEPTANCE.md           Documented risk acceptance decisions with review dates
 agents/
   AG-001-weekly-content-pipeline/
     README.md                Agent card: purpose, access, oversight, risks, findings

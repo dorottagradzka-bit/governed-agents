@@ -8,7 +8,7 @@ Last review: 2026-10-19
 | [AG-002](agents/AG-002-friday-review/README.md) | Friday review | Prepares my weekly review of priorities and updates the cockpit document from my answers | Active | Fridays 12:58 Europe/Warsaw | Automatic mode: no approval gate | Edits the cockpit only from my answers in the session | 3 |
 | [AG-003](agents/AG-003-career-trends/README.md) | Career trends (#kArIera) | Analyses popular AI videos for career-planning signals and drafts a LinkedIn post | Paused 2026-10-19 | Sundays 07:48 Europe/Warsaw (disabled) | Default mode: approval gate on | Draft only, delivered for review | 1 |
 
-**Layer 0 summary (2026-10-19):** none of the three agents has a per-tool allowlist on its MCP servers, and all carry servers they do not need. Every safety rule added so far lives in Layer 1 instructions. Closing this gap is the priority of sprint 1.
+**Layer 0 summary (2026-10-19):** none of the three agents has a per-tool allowlist on its MCP servers, and all carry servers they do not need. Every safety rule added so far lives in Layer 1 instructions. The current configuration is accepted as is until 2026-11-13: see [RA-2026-001](RISK-ACCEPTANCE.md).
 
 ## To be registered
 
