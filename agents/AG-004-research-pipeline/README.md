@@ -7,7 +7,8 @@
 | Status | Pilot, 2026-10-26. Stage 1 run manually once; no scheduled task yet |
 | Schedule | Stage 1 weekly on Saturday (scheduled only after the risk review below); I select on Sunday or Monday; stages 2 and 3 on my trigger |
 | Registered before running | Yes: this card exists before any code or scheduled task |
-| Instructions | [Stage 1: scan and score](instructions-stage1.md) |
+| Instructions | [Stage 1: scan and score](instructions-stage1.md) · [Stage 2: analyse conclusions](instructions-stage2.md) |
+| Run logs | [runs/](runs/) |
 
 ## Scope
 
@@ -84,3 +85,4 @@ Only insights with quality ≥ 3 are proposed by default. Lower-quality items ma
 | --- | --- |
 | 2026-10-20 | Designed from my process description; Notion database *Insighty naukowe* created and linked to *Publikacje* |
 | 2026-10-26 | Decisions recorded: 8 search themes mapped to the 3 × 3 model, Saturday scan, article slot. Stage 1 instructions written; first stage 1 run done manually in a chat session, results in Notion as *Do wyboru* |
+| 2026-10-26 | Gate G1: I selected 3 insights. Stage 2 instructions written and run manually; full texts changed one score and corrected one key finding. Insights wait at gate G2 |
