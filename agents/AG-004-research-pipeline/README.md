@@ -4,9 +4,27 @@
 | --- | --- |
 | Purpose | Turn high-quality scientific publications on my key topics into verified insights, methodologically sound conclusions and, after my approval, publications |
 | Owner | Dorota Roszkowska |
-| Status | Design, 2026-10-20. Not running |
-| Schedule | Stage 1 weekly; stages 2 and 3 on my trigger (to be confirmed) |
+| Status | Pilot, 2026-10-26. Stage 1 run manually once; no scheduled task yet |
+| Schedule | Stage 1 weekly on Saturday (scheduled only after the risk review below); I select on Sunday or Monday; stages 2 and 3 on my trigger |
 | Registered before running | Yes: this card exists before any code or scheduled task |
+| Instructions | [Stage 1: scan and score](instructions-stage1.md) |
+
+## Scope
+
+Eight search themes, each mapped to one competency of the AIfullness 3 × 3 model or to AI literacy. The list is kept short on purpose: a weekly scan over a long list returns noise, and every theme must feed a pillar.
+
+| Competency / pillar | Search themes |
+| --- | --- |
+| Attention · AI Governance | automation bias; human oversight of AI systems |
+| Concentration · BA in the AI era | cognitive load in AI-assisted work; attention and task switching in digital work |
+| Self-regulation · AI change | technostress; mindfulness and self-regulation at work with technology |
+| AI literacy | AI literacy in the workplace; human-AI collaboration performance |
+
+Out of scope for this agent: regulatory news and governance frameworks (AG-001 covers news; this agent covers research on people).
+
+## Division of work with AG-001
+
+AG-004 feeds the weekly article (Wednesday), which benefits most from research and GEO. AG-001 keeps the four weekly posts.
 
 ## Process
 
@@ -57,7 +75,7 @@ Only insights with quality ≥ 3 are proposed by default. Lower-quality items ma
 | D-001 | Scheduled tasks on this platform receive all connected servers, with no per-tool allowlist | Same Layer 0 gap as AG-001 and AG-002; covered by RA-2026-001 triggers, so creating this agent triggers an early review |
 | D-002 | Paywalled papers | Agent reads abstracts and open-access versions only; it must say when a conclusion rests on the abstract alone |
 | D-003 | Hallucinated citations | Every insight must carry a working link or DOI that the agent fetched in the same run; no link, no insight |
-| D-004 | Overlap with AG-001 | Both would feed the same publication plan; division of slots to be decided |
+| D-004 | Overlap with AG-001 | Resolved 2026-10-26: AG-004 feeds the weekly article, AG-001 the four posts |
 | D-005 | Automated publishing | Not in scope until stages 1–3 have run reliably; would need explicit approval recorded at G3 and a dedicated publishing tool |
 
 ## Change log
@@ -65,3 +83,4 @@ Only insights with quality ≥ 3 are proposed by default. Lower-quality items ma
 | Date | Change |
 | --- | --- |
 | 2026-10-20 | Designed from my process description; Notion database *Insighty naukowe* created and linked to *Publikacje* |
+| 2026-10-26 | Decisions recorded: 8 search themes mapped to the 3 × 3 model, Saturday scan, article slot. Stage 1 instructions written; first stage 1 run done manually in a chat session, results in Notion as *Do wyboru* |
